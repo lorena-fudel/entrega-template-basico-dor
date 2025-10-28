@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pantalla Principal | Smart Economato</title>
+  <link rel="stylesheet" href="/css/styleHeader.css" />
+  <link rel="stylesheet" href="/css/styleFooter.css" />
+  <link rel="stylesheet" href="/css/styleMain.css" />
+  <link rel="stylesheet" href="/css/responsive.css" />
+</head>
+<body id="body-main">
+
+  <!-- Header -->
+  <header id="header" class="header-main">
+    <!-- Logos -->
+    <div class="header-logos">
+      <img src="/img/logo1.png" alt="Logo 1" class="logo">
+      <img src="/img/logo2.png" alt="Logo 2" class="logo">
+    </div>
+
+    <!-- Título -->
+    <h1 class="header-titulo">Smart Economato</h1>
+
+    <!-- Avatar -->
+    <div class="header-avatar">
+      <div id="avatar-iniciales-main" class="avatar-iniciales">NA</div>
+    </div>
+  </header>
+
+  <!-- Bienvenida -->
+  <div class="bienvenida-usuario">
+    Bienvenid@ <span id="nombre-usuario-main">Usuario</span>
+  </div>
+
+  <!-- Main -->
+  <main class="main-principal">
+    <nav class="nav-main">
+      <a href="main.html" class="nav-btn">Inicio</a>
+      <a href="inventario.html" class="nav-btn">Inventario</a>
+      <a href="recepcion.html" class="nav-btn">Recepción</a>
+      <a href="historial.html" class="nav-btn">Historial</a>
+      <a href="recetas.html" class="nav-btn">Recetas</a>
+      <a href="logout.html" class="nav-btn-logout">Cerrar Sesión</a>
+    </nav>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-main">
+    Smart Economato © 2025 | Todos los derechos reservados
+  </footer>
+
+  <!-- Script iniciales usuario -->
+  <script>
+    const nombreUsuario = "Nombre Apellidos";
+    document.getElementById("nombre-usuario-main").textContent = nombreUsuario;
+    const avatar = document.getElementById("avatar-iniciales-main");
+    const iniciales = nombreUsuario.split(" ").map(n => n[0].toUpperCase()).join("");
+    avatar.textContent = iniciales;
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* ===== HEADER ===== */
+header, .header-main {
+  width: 100vw;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.header-logos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 10px;
+}
+
+.header-titulo {
+  color: #dc2626;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-iniciales {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #dc2626;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.titulo {
+  color: #dc2626;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}

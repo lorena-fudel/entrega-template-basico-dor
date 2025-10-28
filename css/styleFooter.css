@@ -1,0 +1,14 @@
+/* ===== FOOTER ===== */
+footer {
+  background-color: #f3f4f6;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+
+  position: relative;   /* al final */
+  bottom: 0;         /* En la parte inferior */
+  left: 0;
+  width: 100%;       /* Ocupa todo el ancho */
+  z-index: 100;      /* Siempre encima del contenido */
+}
