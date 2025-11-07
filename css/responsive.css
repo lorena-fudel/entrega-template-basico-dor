@@ -1,4 +1,4 @@
-/* ===== RESPONSIVE ===== */
+/* tablet */
 @media (min-width: 768px) {
   .header, .header-main {
     grid-template-rows: 1fr;
@@ -43,7 +43,7 @@
 
 
 
-
+/* movil */
 @media (max-width: 480px) {
 
   .header .header-titulo {
@@ -86,9 +86,9 @@
   footer {
     font-size: 0.75rem;
     padding: 0.5rem;
-    position: relative;   /* al final */
-    bottom: 0;         /* En la parte inferior */
+    position: relative;   
+    bottom: 0;         
     left: 0;
-    width: 100%;       /* Ocupa todo el ancho */
+    width: 100%;       
   } 
 }

@@ -1,4 +1,4 @@
-/* ===== Reset general ===== */
+/* general */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
 
 
 
-/* ===== BIENVENIDA ===== */
+/* main */
 .bienvenida-usuario {
   background-color: #f3f4f6;
   color: #374151;
@@ -27,7 +27,7 @@ body {
   font-weight: 500;
 }
 
-/* ===== MAIN ===== */
+/* main */
 .main, .main-principal {
   box-sizing: border-box;
   background-color: #fff;
